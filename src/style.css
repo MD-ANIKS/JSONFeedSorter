@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-visby-extra-bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800;
+}
+
+.font-visby-bold{
+  font-weight: bold;
+}
+
+.text-tt-ada-grey {
+	--tw-text-opacity: 1;
+	color: rgba(73, 77, 88, var(--tw-text-opacity));
+}
+
+.text-portfolio {
+  color: #ad1e2c !important;
+  transition: color 0.3s ease;
+}
+
+.text-portfolio:hover{
+  color: #720f1c !important;
+  text-decoration: underline;
+}
+
+.text-portfolio:after {
+  content: '\00a0\00bb';
+}
+
+
+.container {
+  width: 100%;
+}
+
+#locations .branch-container .element_container:first-child .branch_state{
+  margin-top: 0px !important;
+}
+
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 668px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 924px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1180px;
+  }
+}
